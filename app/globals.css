@@ -29,6 +29,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: Inter;
 }
 
 /* a {
@@ -42,6 +43,6 @@ body {
   }
 } */
 
-.d-flex{
+.d_flex {
   display: flex;
 }

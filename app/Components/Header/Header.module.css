@@ -1,0 +1,110 @@
+.heading_line_div {
+  background: rgba(0, 0, 0, 1);
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  padding: 8px 8px;
+}
+.heading_line {
+  color: rgba(235, 76, 107, 1);
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  gap: 10px;
+}
+
+.nav_section_1 {
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  border-bottom: 1px solid rgba(229, 229, 229, 1);
+  padding: 15px;
+}
+.nav_section_2 {
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.nav_sub_section {
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+.links {
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 100% !important;
+  letter-spacing: 1px !important;
+  vertical-align: middle !important;
+  color: rgba(37, 32, 32, 1) !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+}
+.logo_text {
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 100%;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+.icon_section {
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.select_inp {
+  outline: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  color: rgba(37, 32, 32, 1);
+  border: none;
+}
+.menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hide_content {
+    display: none;
+  }
+  .heading_line_div {
+    justify-content: center;
+  }
+  .menu {
+    display: inline;
+    margin-right: 0.5rem;
+  }
+  .links_track_1 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: rgba(191, 200, 205, 1);
+  }
+  .links_track_2 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: rgba(37, 32, 32, 1);
+  }
+  .links_track_div {
+    margin: 0rem 1rem;
+    padding: 1rem 0rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .links_track_div {
+    display: none;
+  }
+}
