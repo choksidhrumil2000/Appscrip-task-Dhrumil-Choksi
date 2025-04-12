@@ -101,6 +101,13 @@
     margin: 0rem 1rem;
     padding: 1rem 0rem;
   }
+  .mobile_links {
+    padding: 8px 0px;
+    font-size: 12px;
+  }
+  .hr_line {
+    margin-top: 16px;
+  }
 }
 
 @media (min-width: 769px) {

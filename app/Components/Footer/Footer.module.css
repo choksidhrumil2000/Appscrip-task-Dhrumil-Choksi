@@ -1,0 +1,232 @@
+.footer_main_div {
+  background: rgba(0, 0, 0, 1);
+  padding: 79px 64px 25px 128px;
+}
+.hr_line {
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.footer_section_1,
+.footer_section_2 {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.text_inp {
+  background: rgba(255, 255, 255, 1);
+  padding: 14px 24px;
+  width: 50%;
+}
+.text_inp::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(191, 200, 205, 1);
+}
+.btn {
+  /* opacity:0.3; */
+  border: 1.14px solid rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  background-color: black;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  padding: 13px 47px;
+  margin-left: 16px;
+}
+.footer_sub_line {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+}
+.input_div {
+  margin-top: 51px;
+}
+.footer_heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+.footer_sub_section_contact_us {
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+.currency {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 8px;
+}
+.footer_sub_section_currency {
+  align-items: center;
+  margin-top: 16px;
+}
+.footer_text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 16px;
+  margin-bottom: 26px;
+}
+.footer_section_2 {
+  margin-top: 56px;
+}
+.footer_sub_section_1,
+.footer_sub_section_2 {
+  flex-direction: column;
+  gap: 16px;
+}
+.footer_sec1_sub_section_1,
+.footer_sec1_sub_section_2 {
+  width: 50%;
+}
+.footer_section_2_heading {
+  font-weight: 700;
+  font-size: 24.71px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+}
+.footer_section_2_links {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.footer_follow_section {
+  flex-direction: column;
+  gap: 24px;
+}
+.footer_section_2_pay {
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.show_line {
+  display: none;
+}
+.w_50 {
+  width: 50%;
+}
+.footer_section_1 {
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .footer_main_div {
+    padding: 24px 16px;
+  }
+  .footer_section_1 {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .footer_sec1_sub_section_1,
+  .footer_sec1_sub_section_2 {
+    width: 100%;
+  }
+  .footer_heading {
+    font-size: 16px;
+  }
+  .footer_sub_line {
+    font-size: 14px;
+  }
+  .input_div {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .text_inp {
+    width: 55%;
+  }
+  .text_inp::placeholder {
+    font-size: 16px;
+  }
+  .btn {
+    padding: 15px;
+    width: 40%;
+  }
+  .hide_content {
+    display: none;
+  }
+  .show_line {
+    display: block;
+  }
+  .footer_heading_contact_us {
+    content: "CALL US";
+  }
+  .footer_sub_section_contact_us {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+  }
+  .margin_top_mobile {
+    margin-top: 16px;
+  }
+  .footer_section_2_links {
+    font-size: 14px;
+  }
+  .footer_section_2_heading {
+    font-size: 16px;
+  }
+  .footer_section_2_pay {
+    flex-wrap: wrap;
+  }
+  .w_100 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .footer_main_div {
+    padding: 79px 64px 25px 64px;
+  }
+  .footer_sec1_sub_section_1 {
+    min-width: 60%;
+    width: unset;
+  }
+  .footer_sec1_sub_section_2 {
+    min-width: 30%;
+    width: unset;
+  }
+  .footer_sec2_sub_section_1 {
+    min-width: 30%;
+  }
+  .footer_sec2_sub_section_2 {
+    min-width: 30%;
+  }
+  .footer_sec2_sub_section_3 {
+    min-width: 40%;
+  }
+
+  .text_inp {
+    min-width: 40%;
+  }
+  .text_inp::placeholder {
+    font-size: 16px;
+  }
+  .btn {
+    padding: 15px;
+  }
+}
