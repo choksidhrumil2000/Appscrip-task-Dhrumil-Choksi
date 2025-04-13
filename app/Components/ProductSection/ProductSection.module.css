@@ -81,7 +81,7 @@
   }
   .grid_adjustments_with_filters {
     grid-template-columns: repeat(1, 100%) !important;
-    width: 88%;
+    max-width: 80%;
   }
   .show_filters_mobile {
     min-width: 44% !important;
