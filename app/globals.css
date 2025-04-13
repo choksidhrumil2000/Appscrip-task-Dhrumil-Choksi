@@ -46,3 +46,6 @@ body {
 .d_flex {
   display: flex;
 }
+.d_grid {
+  display: grid;
+}

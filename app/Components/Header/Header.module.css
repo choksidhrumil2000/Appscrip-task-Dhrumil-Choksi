@@ -82,6 +82,7 @@
   .menu {
     display: inline;
     margin-right: 0.5rem;
+    cursor: pointer;
   }
   .links_track_1 {
     font-weight: 400;
