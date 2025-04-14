@@ -84,7 +84,7 @@
     max-width: 80%;
   }
   .show_filters_mobile {
-    min-width: 44% !important;
+    min-width: 45% !important;
   }
 }
 @media (min-width: 769px) and (max-width: 1200px) {

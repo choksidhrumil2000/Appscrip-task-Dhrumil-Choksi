@@ -132,7 +132,17 @@
 .footer_section_1 {
   gap: 8px;
 }
-
+@media(max-width:378px){
+  .footer_sub_section_contact_us {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center  !important;
+    gap: 8px !important;
+  }
+  .show_diamond{
+    display: inline !important;
+  }
+}
 @media (max-width: 768px) {
   .footer_main_div {
     padding: 24px 16px;
@@ -194,6 +204,9 @@
   }
   .w_100 {
     width: 100%;
+  }
+  .show_diamond{
+    display: inline !important;
   }
 }
 

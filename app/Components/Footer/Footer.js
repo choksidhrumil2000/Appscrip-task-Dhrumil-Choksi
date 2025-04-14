@@ -65,10 +65,10 @@ export default function Footer() {
           </p>
           <div className={`d_flex ${styles.footer_sub_section_contact_us}`}>
             <p className={styles.footer_sub_line}>+44 221 133 5360</p>
-            <span style={{ color: "white" }} className={styles.show_line}>
+            
+            <p className={styles.footer_sub_line}><span style={{ color: "white" }} className={`${styles.show_diamond}`}>
               ♦{" "}
-            </span>
-            <p className={styles.footer_sub_line}>customercare@mettamuse.com</p>
+            </span>customercare@mettamuse.com</p>
           </div>
           <hr
             style={{ marginTop: "16px" }}
